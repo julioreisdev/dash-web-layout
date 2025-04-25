@@ -30,7 +30,7 @@ const VerifyCodePage: FC = () => {
             width: "300px",
           }}
         >
-          <h3 style={{ color: context?.colors.blue }}>IFpotenusa</h3>
+          <h3 style={{ color: context?.colors.blue }}>Dash-Web-Layout</h3>
           <form
             style={{
               display: "flex",

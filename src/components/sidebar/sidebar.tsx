@@ -218,7 +218,9 @@ const Sidebar: React.FC<IProps> = ({ children }) => {
         }
       >
         <DrawerHeader>
-          <h3 style={{ color: context?.colors.blueDark || "" }}>IFpotenusa</h3>
+          <h3 style={{ color: context?.colors.blueDark || "" }}>
+            Dash-Web-Layout
+          </h3>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === "rtl" ? (
               <ChevronRightIcon

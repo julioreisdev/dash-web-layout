@@ -30,7 +30,7 @@ const LoginPage: FC = () => {
     <CenterBox style={{ flexDirection: "column" }} overflow={35.19}>
       <h3 style={{ textAlign: "center", width: " 80%" }}>
         {" "}
-        Mais um projeto que saiu da Federal do Piauí
+        Base de dashboard para aplicações web
       </h3>
       <Box
         sx={{
@@ -54,7 +54,7 @@ const LoginPage: FC = () => {
             width: "300px",
           }}
         >
-          <h3 style={{ color: context?.colors.blue }}>IFpotenusa</h3>
+          <h3 style={{ color: context?.colors.blue }}>Dash-Web-Layout</h3>
           <form
             onSubmit={(e) => {
               e.preventDefault();
